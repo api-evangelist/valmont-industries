@@ -1,7 +1,12 @@
 aid: valmont-industries
-url: https://raw.githubusercontent.com/api-evangelist/valmont-industries/refs/heads/main/apis.yml
+url: 
+  https://raw.githubusercontent.com/api-evangelist/valmont-industries/refs/heads/main/apis.yml
 modified: '2026-03-24'
 apis: []
 common:
   - type: Website
     url: https://www.valmont-industries.com
+description: >-
+  Valmont Industries is a global leader in producing fabricated metal products, designing
+  and manufacturing engineered support structures for infrastructure, mechanized irrigation
+  equipment, and coatings services.
