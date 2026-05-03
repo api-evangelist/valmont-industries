@@ -1,0 +1,137 @@
+vocabulary:
+  name: Valmont Industries Vocabulary
+  description: >-
+    Domain vocabulary for Valmont Industries, a global manufacturer of engineered support
+    structures, mechanized irrigation equipment, and coatings services. Focuses on the
+    Valley irrigation platform, AgSense precision agriculture, and infrastructure manufacturing.
+  version: "2026-05"
+  domain: Agriculture Technology, Infrastructure Manufacturing
+  tags:
+    - Agriculture
+    - Irrigation
+    - Infrastructure
+    - IoT
+    - Smart Agriculture
+    - Manufacturing
+
+terms:
+  - term: Center Pivot
+    definition: >-
+      An irrigation system where equipment rotates around a central pivot point, supplied
+      with water from the center. Valley brand center pivots from Valmont are the world's
+      leading mechanized irrigation systems. Modern systems include GPS, telemetry, and
+      remote control via AgSense or BaseStation3.
+    related:
+      - Valley
+      - Pivot
+      - Linear Irrigation
+
+  - term: Valley
+    definition: >-
+      Valmont's leading brand of center pivot and linear irrigation systems. Valley is
+      the world's largest manufacturer of mechanized irrigation equipment, with systems
+      installed across 6 continents. Includes digital platforms AgSense 365 and BaseStation3.
+    related:
+      - Center Pivot
+      - AgSense
+      - BaseStation3
+
+  - term: AgSense
+    definition: >-
+      Valley Irrigation's digital remote monitoring and control platform. AgSense monitors,
+      manages, and optimizes Valley center pivots and farm operations through a cloud-based
+      platform accessible via web browser or mobile app. AgSense 365 is the latest unified
+      platform combining features of multiple legacy remote management tools.
+    related:
+      - BaseStation3
+      - Valley
+      - Center Pivot
+
+  - term: AgSense 365
+    definition: >-
+      The current unified Valley remote management platform that combines features of
+      BaseStation3 and legacy AgSense tools into a single interface for managing irrigation
+      pivots, flow meters, soil sensors, and other farm devices.
+    related:
+      - AgSense
+      - BaseStation3
+
+  - term: BaseStation3
+    definition: >-
+      Valmont's on-pivot telemetry device and remote management solution. BaseStation3
+      integrates into Valley control panels to provide real-time monitoring, remote
+      control, data logging, and two-way communication for center pivot systems.
+    related:
+      - AgSense
+      - Valley
+      - Center Pivot
+
+  - term: CommanderVP
+    definition: >-
+      Vantiv's remote monitoring and control solution for Valley control panels, developed
+      with AgSense. The first AgSense telemetry product to completely integrate into
+      Valley digital control panels.
+    related:
+      - AgSense
+      - BaseStation3
+
+  - term: ICON Smart Panel
+    definition: >-
+      Valley's advanced pivot control panel with built-in AgSense connectivity. Turns
+      any smartphone, tablet, or PC into a virtual control panel for the irrigation operation.
+    related:
+      - AgSense
+      - Valley
+
+  - term: Precision Agriculture
+    definition: >-
+      Farm management approach using digital technology to optimize field-level crop
+      management. Valmont/Valley supports precision ag through GPS-guided pivots,
+      variable rate irrigation (VRI), and telemetry-connected devices.
+    related:
+      - Variable Rate Irrigation
+      - AgSense
+
+  - term: Variable Rate Irrigation
+    definition: >-
+      The ability to apply different amounts of water to different zones within a pivot
+      field. VRI systems controlled by AgSense and BaseStation3 allow farmers to match
+      water application to soil type, crop need, and topography.
+    abbreviation: VRI
+    related:
+      - Center Pivot
+      - Precision Agriculture
+
+  - term: Utility Structure
+    definition: >-
+      Steel poles and towers for electrical transmission and distribution. Valmont's
+      infrastructure segment manufactures steel and aluminum utility poles for power
+      utilities across North America and globally.
+    related:
+      - Infrastructure
+
+  - term: Lighting Structure
+    definition: >-
+      Valmont manufactures steel and aluminum poles for roadway, sports, and commercial
+      lighting applications. Products range from standard streetlight poles to specialty
+      stadium lighting towers.
+
+  - term: Traffic Structure
+    definition: >-
+      Valmont manufactures overhead sign structures, traffic signal poles, and highway
+      support structures for transportation departments and contractors.
+
+  - term: Industrial Coatings
+    definition: >-
+      Valmont's coatings segment provides hot-dip galvanizing, powder coating, and
+      anodizing services for steel and aluminum products. Protects infrastructure and
+      agricultural equipment from corrosion.
+    related:
+      - Galvanizing
+
+  - term: Galvanizing
+    definition: >-
+      Process of applying a zinc coating to steel to prevent rust and corrosion. Valmont
+      operates one of the largest networks of hot-dip galvanizing facilities in North America.
+    related:
+      - Industrial Coatings

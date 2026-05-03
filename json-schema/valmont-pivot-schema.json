@@ -1,0 +1,83 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://raw.githubusercontent.com/api-evangelist/valmont-industries/main/json-schema/valmont-pivot-schema.json",
+  "title": "Valmont Valley Center Pivot",
+  "description": "A Valley center pivot irrigation system managed through the AgSense 365 or BaseStation3 platform",
+  "type": "object",
+  "required": ["id", "name"],
+  "properties": {
+    "id": {
+      "type": "string",
+      "description": "Unique identifier for the pivot device"
+    },
+    "name": {
+      "type": "string",
+      "description": "User-assigned name for the pivot"
+    },
+    "serialNumber": {
+      "type": "string",
+      "description": "Valley equipment serial number"
+    },
+    "status": {
+      "type": "string",
+      "enum": ["running", "stopped", "faulted", "unknown"],
+      "description": "Current operational status of the pivot"
+    },
+    "position": {
+      "type": "number",
+      "minimum": 0,
+      "maximum": 360,
+      "description": "Current angular position of the pivot in degrees"
+    },
+    "direction": {
+      "type": "string",
+      "enum": ["forward", "reverse"],
+      "description": "Current direction of rotation"
+    },
+    "speed": {
+      "type": "number",
+      "minimum": 0,
+      "maximum": 100,
+      "description": "Pivot speed as percent timer (100% = maximum speed)"
+    },
+    "endGunActive": {
+      "type": "boolean",
+      "description": "Whether the end gun is currently active"
+    },
+    "waterApplied": {
+      "type": "number",
+      "description": "Total water applied in inches for the current program"
+    },
+    "flowRate": {
+      "type": "number",
+      "description": "Current flow rate in gallons per minute"
+    },
+    "location": {
+      "type": "object",
+      "properties": {
+        "latitude": {
+          "type": "number",
+          "description": "Pivot center latitude in decimal degrees"
+        },
+        "longitude": {
+          "type": "number",
+          "description": "Pivot center longitude in decimal degrees"
+        },
+        "fieldName": {
+          "type": "string",
+          "description": "Name of the field where the pivot is located"
+        }
+      }
+    },
+    "controlPanel": {
+      "type": "string",
+      "enum": ["ICON", "ICON5", "LEGACY"],
+      "description": "Type of Valley control panel"
+    },
+    "lastUpdated": {
+      "type": "string",
+      "format": "date-time",
+      "description": "Timestamp of last telemetry update"
+    }
+  }
+}

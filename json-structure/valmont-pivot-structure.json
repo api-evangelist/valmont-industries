@@ -1,0 +1,20 @@
+{
+  "name": "ValleyPivot",
+  "description": "Valley center pivot irrigation system managed via AgSense 365",
+  "fields": [
+    { "name": "id", "type": "string", "required": true, "description": "Device identifier" },
+    { "name": "name", "type": "string", "required": true, "description": "User-assigned pivot name" },
+    { "name": "serialNumber", "type": "string", "required": false, "description": "Equipment serial number" },
+    { "name": "status", "type": "enum", "required": false, "values": ["running", "stopped", "faulted", "unknown"], "description": "Operational status" },
+    { "name": "position", "type": "number", "required": false, "description": "Angular position 0-360 degrees" },
+    { "name": "direction", "type": "enum", "required": false, "values": ["forward", "reverse"], "description": "Rotation direction" },
+    { "name": "speed", "type": "number", "required": false, "description": "Speed as percent timer 0-100" },
+    { "name": "endGunActive", "type": "boolean", "required": false, "description": "End gun state" },
+    { "name": "waterApplied", "type": "number", "required": false, "description": "Water applied in inches" },
+    { "name": "flowRate", "type": "number", "required": false, "description": "GPM flow rate" },
+    { "name": "location.latitude", "type": "number", "required": false, "description": "GPS latitude" },
+    { "name": "location.longitude", "type": "number", "required": false, "description": "GPS longitude" },
+    { "name": "controlPanel", "type": "enum", "required": false, "values": ["ICON", "ICON5", "LEGACY"], "description": "Control panel type" },
+    { "name": "lastUpdated", "type": "date-time", "required": false, "description": "Last telemetry timestamp" }
+  ]
+}

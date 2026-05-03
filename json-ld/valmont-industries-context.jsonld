@@ -1,0 +1,92 @@
+{
+  "@context": {
+    "@version": 1.1,
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "schema": "https://schema.org/",
+    "agri": "http://aims.fao.org/aos/agrovoc/",
+    "valmont": "https://www.valmont.com/",
+    "valley": "https://www.valleyirrigation.com/",
+
+    "CenterPivot": {
+      "@id": "valley:CenterPivot",
+      "@type": "@id"
+    },
+    "IrrigationSystem": {
+      "@id": "agri:c_26906",
+      "@type": "@id"
+    },
+    "Device": {
+      "@id": "schema:IndividualProduct",
+      "@type": "@id"
+    },
+    "Farm": {
+      "@id": "schema:LocalBusiness",
+      "@type": "@id"
+    },
+
+    "id": "@id",
+    "name": "schema:name",
+    "description": "schema:description",
+    "serialNumber": "schema:serialNumber",
+    "manufacturer": {
+      "@id": "schema:manufacturer",
+      "@type": "@id"
+    },
+    "model": "schema:model",
+    "location": {
+      "@id": "schema:location",
+      "@type": "schema:Place"
+    },
+    "latitude": {
+      "@id": "schema:latitude",
+      "@type": "xsd:decimal"
+    },
+    "longitude": {
+      "@id": "schema:longitude",
+      "@type": "xsd:decimal"
+    },
+    "status": "valley:status",
+    "position": {
+      "@id": "valley:pivotPosition",
+      "@type": "xsd:decimal",
+      "description": "Current pivot position in degrees (0-360)"
+    },
+    "direction": "valley:direction",
+    "speed": {
+      "@id": "valley:percentTimer",
+      "@type": "xsd:decimal",
+      "description": "Pivot speed as percent timer (0-100)"
+    },
+    "endGun": {
+      "@id": "valley:endGun",
+      "@type": "xsd:boolean"
+    },
+    "waterApplied": {
+      "@id": "valley:waterApplied",
+      "@type": "xsd:decimal",
+      "description": "Water applied in inches"
+    },
+    "lastUpdated": {
+      "@id": "schema:dateModified",
+      "@type": "xsd:dateTime"
+    },
+    "panel": {
+      "@id": "valley:controlPanel",
+      "@type": "@id"
+    },
+    "fieldArea": {
+      "@id": "agri:c_2674",
+      "@type": "xsd:decimal",
+      "description": "Field area in acres"
+    },
+    "soilMoisture": {
+      "@id": "agri:c_330834",
+      "@type": "xsd:decimal"
+    },
+    "flowRate": {
+      "@id": "valley:flowRate",
+      "@type": "xsd:decimal",
+      "description": "Flow rate in gallons per minute"
+    }
+  }
+}
