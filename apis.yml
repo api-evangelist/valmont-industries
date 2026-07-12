@@ -27,6 +27,8 @@ maintainers:
 specificationVersion: '0.19'
 apis: []
 common:
+  - type: DomainSecurity
+    url: security/valmont-industries-domain-security.yml
   - type: LinkedIn
     url: https://www.linkedin.com/company/valmont-industries
   - name: Website
@@ -56,3 +58,5 @@ common:
   - name: Coatings Division
     url: https://www.valmont.com/coatings
     type: Product
+  - url: https://www.valleyirrigation.com/news
+    type: Blog
