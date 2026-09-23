@@ -1,7 +1,9 @@
 ---
 title: Valmont Industries, Inc.'s Post
 url: https://www.linkedin.com/posts/valmontindustriesinc_valmont-to-acquire-prospera-technologies-activity-6795799294902341632-5fye
-date: '2026-05-25'
+published: ''
+date_basis: harvested
+harvested: '2026-05-25'
 query: '"Valmont Industries" press release artificial intelligence'
 position: 2
 source: serpapi-google

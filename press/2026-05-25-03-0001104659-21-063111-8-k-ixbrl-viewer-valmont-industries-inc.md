@@ -1,7 +1,9 @@
 ---
 title: 0001104659-21-063111 | 8-K | iXBRL Viewer | Valmont Industries INC
 url: https://investors.valmont.com/node/9336/ixbrl-viewer
-date: '2026-05-25'
+published: ''
+date_basis: harvested
+harvested: '2026-05-25'
 query: '"Valmont Industries" press release artificial intelligence'
 position: 3
 source: serpapi-google

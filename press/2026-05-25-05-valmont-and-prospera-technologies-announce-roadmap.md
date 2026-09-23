@@ -1,7 +1,9 @@
 ---
 title: Valmont and Prospera Technologies Announce Roadmap ...
 url: https://www.prnewswire.com/news-releases/valmont-and-prospera-technologies-announce-roadmap-to-autonomous-crop-management-technology-through-global-partnership-300797955.html
-date: '2026-05-25'
+published: ''
+date_basis: harvested
+harvested: '2026-05-25'
 query: '"Valmont Industries" press release artificial intelligence'
 position: 5
 source: serpapi-google
